@@ -5,6 +5,7 @@ from langchain_community.tools import ArxivQueryRun,WikipediaQueryRun,DuckDuckGo
 from langchain.agents import create_agent
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 import os
+from ddgs import DDGS
 from dotenv import load_dotenv
 ## Code
 ####
